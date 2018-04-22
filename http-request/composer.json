@@ -1,0 +1,37 @@
+{
+  "name": "mypackage/http-request",
+  "description": "composer package test",
+  "keywords": ["test", "curl","http request"],
+  "type": "library",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/sexyphp/composer/issues",
+    "source": "https://github.com/sexyphp/composer/tree/master/vendor/sexyphp"
+  },
+  "authors": [
+    {
+      "name": "cck",
+      "email": "aaa@qq.com"
+    }
+  ],
+  "require": {
+    "php":                               "^5.3|^7.0"
+  },
+  "replace": {
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  },
+  "minimum-stability": "dev"
+
+}
