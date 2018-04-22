@@ -5,8 +5,8 @@
   "type": "library",
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/sexyphp/composer/issues",
-    "source": "https://github.com/sexyphp/composer/tree/master/vendor/sexyphp"
+    "issues": "https://github.com/cuichunkai/mypackage",
+    "source": "https://github.com/cuichunkai/mypackage"
   },
   "authors": [
     {
@@ -15,7 +15,7 @@
     }
   ],
   "require": {
-    "php":                               "^5.3|^7.0"
+    "php": "^7.0"
   },
   "replace": {
   },

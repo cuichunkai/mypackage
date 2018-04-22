@@ -6,12 +6,13 @@ namespace Mypackage\Src;
  */
 class Curl{
     var $callback,$user_agent,$cookie,$proxy,$timeout,$http_code;
+
     public function __construct(){
         $this->callback = false;
         if(isset($_SERVER['HTTP_USER_AGENT'])){
             $this->user_agent = $_SERVER['HTTP_USER_AGENT'];
         }else{
-            $this->user_agent = 'Mozilla/5.0 (Windows NT 6.1; rv:12.0) Gecko/20100101 Firefox/12.0';
+            $this->user_agent = 'Mozilla/5.0 (Windows NT 6.1; rv:12.0) ';
         }
         $this->cookie = false;
         $this->proxy = '';
@@ -52,7 +53,6 @@ class Curl{
         }
         $data = curl_exec($ch);
         if(empty($data)){
-//			$err = curl_error($ch);
             $err = false;
             curl_close($ch);
             return $err;

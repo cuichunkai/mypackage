@@ -20,7 +20,6 @@ class Api
             throw new \Exception("error: can't connect server".$this->curl->http_code);
         }
         if(is_null(json_decode($out))){
-            var_dump($out);
             throw new \Exception('error: is not json');
         }
         $json = $this->str2json($out);
