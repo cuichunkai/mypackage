@@ -5,8 +5,7 @@
   "type": "library",
   "license": "MIT",
   "support": {
-    "issues": "https://github.com/cuichunkai/mypackage",
-    "source": "git@github.com:cuichunkai/mypackage.git"
+    "issues": "https://github.com/cuichunkai/mypackage"
   },
   "authors": [
     {
