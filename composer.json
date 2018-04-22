@@ -1,7 +1,6 @@
 {
   "name": "mypackage/http-request",
   "description": "composer package test",
-  "version": "1.1.2",
   "type": "library",
   "license": "MIT",
   "support": {
